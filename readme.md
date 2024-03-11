@@ -39,7 +39,7 @@ The repository is organized as follows:
 ## Usage
 
 1. Open `main.tex` in your LaTeX editor.
-2. Modify the content of each chapter in the `content/subsection.tex`.
+2. Modify the content of each chapter in the `content/yourchapter.tex`.
 3. Add your bibliography entries in the `references.bib`.
 4. Customize the style in the `mydefs.sty` directory if needed.
 
