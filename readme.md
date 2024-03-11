@@ -21,13 +21,17 @@ You can use the online LaTeX editor with Overleaf; the LRE thesis template is av
 The repository is organized as follows:
 
 - **`main.tex`**: The main LaTeX file that includes all other sections and settings.
-    - `abstract.tex`
-    - `intro.tex`
-    - `relatedwork.tex`
-    - `materialsandmethods.tex`
-    - `experimentsanddresults.tex`
-    - `discussion.tex`
-    - `conclusion.tex`
+- **`content/`**: Directory providing access to all subsections, where you can add the contents of all chapters.
+    - `00_abstract.tex`
+    - `01_intro.tex`
+    - `02_relatedwork.tex`
+    - `03_materialsandmethods.tex`
+    - `04_experimentsanddresults.tex`
+    - `05_discussion.tex`
+    - `06_conclusion.tex`
+    - `ack.tex`
+    - `appendix.tex`
+    - `tittle.tex`
 - **`images/`**: Place to store images and figures used in your thesis.
 - **`references.bib`**: Store your bibliography files (e.g., BibTeX) here.
 - **`mydefs.sty`**: Custom style files for formatting and layout.
