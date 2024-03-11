@@ -24,7 +24,7 @@ The repository is organized as follows:
     - `abstract.tex`
     - `intro.tex`
     - `relatedwork.tex`
-    - `materialsandmethod.tex`
+    - `materialsandmethods.tex`
     - `experimentsanddresults.tex`
     - `discussion.tex`
     - `conclusion.tex`
