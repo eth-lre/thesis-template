@@ -14,7 +14,7 @@ git clone https://github.com/eth-lre/thesis-template.git
 
 ### 2. Open the Project in Overleaf
 
-You can use the online LaTeX editor with Overleaf; the LRE thesis template is available [here](https://www.overleaf.com/latex/templates/eth-zurich-lre-thesis-template/pvwbkqytmjqp)
+You can use the online LaTeX editor with Overleaf; the LRE thesis template is available [here](https://www.overleaf.com/latex/templates/eth-zurich-lre-thesis-template/pvwbkqytmjqp).
 
 ## Structure
 
@@ -39,7 +39,7 @@ The repository is organized as follows:
 ## Usage
 
 1. Open `main.tex` in your LaTeX editor.
-2. Modify the content of each chapter in the `subsection.tex`.
+2. Modify the content of each chapter in the `content/subsection.tex`.
 3. Add your bibliography entries in the `references.bib`.
 4. Customize the style in the `mydefs.sty` directory if needed.
 
