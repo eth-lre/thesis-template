@@ -35,6 +35,7 @@ The repository is organized as follows:
 - **`images/`**: Place to store images and figures used in your thesis.
 - **`references.bib`**: Store your bibliography files (e.g., BibTeX) here.
 - **`mydefs.sty`**: Custom style files for formatting and layout.
+- **`declaration-originality.pdf`**: Declaration of originality (Needs to be signed and attached to your thesis).
 
 ## Usage
 
