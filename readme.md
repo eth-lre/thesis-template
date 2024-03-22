@@ -44,6 +44,9 @@ The repository is organized as follows:
 3. Add your bibliography entries in the `references.bib`.
 4. Customize the style in the `mydefs.sty` directory if needed.
 
+## Note
+ **Page limit:** The submitted thesis should be minimum 20 pages and maximum 50 pages, excluding references.
+
 ## Feedback and Contributions
 
 We welcome feedback and contributions. If you encounter issues or have suggestions for improvements, please open an issue on GitHub or submit a pull request.

@@ -42,13 +42,13 @@
 }
 
 % Title page, modify accordingly 
-\input{title.tex}
+\input{content/title.tex}
 \cleardoublepage
 
-\input{abstract.tex}
+\input{content/00_abstract.tex}
 
 % Input here any acknowledgements
-\input{ack.tex}
+\input{content/ack.tex}
 \cleardoublepage
 \newpage
 
@@ -81,19 +81,19 @@
 %% ----------------------------------------------------------------------------
 % Actual text comes here - defer it to other files and use \input{bla.tex}, ..
 %% ----------------------------------------------------------------------------
-\input{intro.tex}
-\input{relatedwork.tex}
-\input{materialsandmethods.tex}
-\input{experimentsandresults.tex}
-\input{discussion.tex}
-\input{conclusion.tex}
+\input{content/01_intro.tex}
+\input{content/02_relatedwork.tex}
+\input{content/03_materialsandmethods.tex}
+\input{content/04_experimentsandresults.tex}
+\input{content/05_discussion.tex}
+\input{content/06_conclusion.tex}
 
 
 %% ----------------------------------------------------------------------------
 % If Appendix is needed
 %% ----------------------------------------------------------------------------
 \appendix
-\input{appendix.tex}
+\input{content/appendix.tex}
 
 %% ----------------------------------------------------------------------------
 % Bibliography is stored in references.bib file, and can often be found
