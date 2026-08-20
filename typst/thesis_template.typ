@@ -5,8 +5,6 @@
 // Original author of IIS Thesis Report Template: Tim Fischer <fischeti@iis.ee.ethz.ch>
 
 
-#import "@preview/gentle-clues:1.3.1": code, task
-
 /// Include all pages of a PDF file as full-width images.
 /// Use an absolute path (e.g. "/examples/task.pdf") so it resolves from the
 /// Typst root regardless of which file calls this function.
