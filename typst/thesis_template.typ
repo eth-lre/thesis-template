@@ -176,9 +176,9 @@
 
         v(20pt)
         text(size: 12pt)[
-          Advisors:\
-          #advisors.map(x => x.name).join(linebreak())
-        ]
+        Advisors:\
+        #advisors.map(x=>x.name).join(linebreak())
+      ]
       })
 
       v(1fr)
@@ -226,6 +226,12 @@
     pagebreak()
   }
 
+  show figure: set block(below: 20pt)
+  show figure: set text(size: 10pt)
+  show figure.caption: set align(left)
+  
+  
+
   // Mainmatter, switching back to arabic numbering and resetting the page counter again.
   set page(numbering: "1")
   counter(page).update(1)
@@ -244,6 +250,10 @@
     pagebreak()
   }
 
+
   // Backmatter with bibliography
-  bibliography
+  {
+    set text(size: 10pt)
+    bibliography
+  }
 }
